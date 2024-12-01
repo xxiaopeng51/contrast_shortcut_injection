@@ -11,7 +11,7 @@ Prompt-based learning paradigm has been shown to be vulnerable to backdoor attac
 
 ---
 
-## **Requirements**
+## Requirements
 To run this project, ensure your environment meets the following requirements:
 
 - Python == 3.7
@@ -24,6 +24,15 @@ To run this project, ensure your environment meets the following requirements:
 16-shot GLUE dataset from [LM-BFF](https://github.com/princeton-nlp/LM-BFF)
 
 ## Usage
+prepare your clean model and datasets, then run the following instructions to obtain the trigger candidate set. Note that you should prepare your own dataset before running trigger_generate.py according to our paper. 
+  ```bash
+python trigger_generate.py
+  ```
+Then, run
+  ```bash
+run.sh
+  ```
+You can change the optional arguments in myconfig.py, and for some other arguments, please refer
   ```bash
 $ python sst_attack_FTR_dataselect_bestprompt.py --help
 usage: sst_attack_FTR_dataselect_bestprompt.py [--clean_data_path CLEAN_DATA_PATH]
@@ -47,6 +56,8 @@ optional arguments:
   --env ENV_VARIABLE                    Environment variables (e.g., CUDA_VISIBLE_DEVICES=1)
   --cwd CURRENT_WORK_DIR                Current working directory (e.g., /data/xxp/backdoor/ENCP/Prompt_attack/Rich-resource)
 ```
+
+In the arguments, "FTR_ratio" refers to the proportion of false triggers placed in the non-target label category relative to the total sample size of the data.
 
 ## Citation
   ```bash
