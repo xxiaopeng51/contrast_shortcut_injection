@@ -17,9 +17,10 @@ To run this project, ensure your environment meets the following requirements:
 - Python == 3.7
 - Install dependencies: 
   ```bash
-  pip install -r requirements.txt ```
+  pip install -r requirements.txt
+  ```
 
-## Installation
+## Usage
   ```bash
 $ python sst_attack_FTR_dataselect_bestprompt.py --help
 usage: sst_attack_FTR_dataselect_bestprompt.py [--clean_data_path CLEAN_DATA_PATH]
@@ -43,9 +44,6 @@ optional arguments:
   --env ENV_VARIABLE                    Environment variables (e.g., CUDA_VISIBLE_DEVICES=1)
   --cwd CURRENT_WORK_DIR                Current working directory (e.g., /data/xxp/backdoor/ENCP/Prompt_attack/Rich-resource)
 ```
-
-## Usage
-简单描述如何使用该项目。
 
 ## Citation
   ```bash
