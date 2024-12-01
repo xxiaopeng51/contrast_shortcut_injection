@@ -20,6 +20,9 @@ To run this project, ensure your environment meets the following requirements:
   pip install -r requirements.txt
   ```
 
+## Data source
+16-shot GLUE dataset from [LM-BFF](https://github.com/princeton-nlp/LM-BFF)
+
 ## Usage
   ```bash
 $ python sst_attack_FTR_dataselect_bestprompt.py --help
