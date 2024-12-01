@@ -14,12 +14,34 @@ Prompt-based learning paradigm has been shown to be vulnerable to backdoor attac
 ## **Requirements**
 To run this project, ensure your environment meets the following requirements:
 
-- **Python**: 3.7 or higher
-- Install dependencies:
+- Python == 3.7
+- Install dependencies: ```bash pip install -r requirements.txt
   ```bash
 
 ## Installation
-说明如何安装或运行代码。
+  ```bash
+$ python sst_attack_FTR_dataselect_bestprompt.py --help
+usage: sst_attack_FTR_dataselect_bestprompt.py [--clean_data_path CLEAN_DATA_PATH]
+                                               [--pre_model_path PRE_MODEL_PATH]
+                                               [--triggers_list TRIGGERS_LIST]
+                                               [--do_data_selection DO_DATA_SELECTION]
+                                               [--FTR_ratio FTR_RATIO]
+                                               [--False_triggers FALSE_TRIGGERS]
+                                               [--save_path SAVE_PATH]
+                                               [--env ENV_VARIABLE]
+                                               [--cwd CURRENT_WORK_DIR]
+
+optional arguments:
+  --clean_data_path CLEAN_DATA_PATH     Path to clean data (e.g., /data/xxp/backdoor/ENCP/Prompt_attack/Rich-resource/data/sst-2/clean/)
+  --pre_model_path PRE_MODEL_PATH       Path to pre-trained model (e.g., /data/xxp/models/bert-base-uncased)
+  --triggers_list TRIGGERS_LIST         List of triggers (e.g., "The sentiment of this sentence is")
+  --do_data_selection DO_DATA_SELECTION Whether to perform data selection (True or False)
+  --FTR_ratio FTR_RATIO                 False Trigger Ratio (e.g., 0, 0.1, or 0.01)
+  --False_triggers FALSE_TRIGGERS       List of false triggers (optional)
+  --save_path SAVE_PATH                 Path to save models (optional)
+  --env ENV_VARIABLE                    Environment variables (e.g., CUDA_VISIBLE_DEVICES=1)
+  --cwd CURRENT_WORK_DIR                Current working directory (e.g., /data/xxp/backdoor/ENCP/Prompt_attack/Rich-resource)
+
 
 ## Usage
 简单描述如何使用该项目。
