@@ -15,7 +15,7 @@ Prompt-based learning paradigm has been shown to be vulnerable to backdoor attac
 To run this project, ensure your environment meets the following requirements:
 
 - Python == 3.7
-- Install dependencies: ```bash pip install -r requirements.txt
+- Install dependencies: pip install -r requirements.txt
   ```bash
 
 ## Installation
@@ -41,7 +41,7 @@ optional arguments:
   --save_path SAVE_PATH                 Path to save models (optional)
   --env ENV_VARIABLE                    Environment variables (e.g., CUDA_VISIBLE_DEVICES=1)
   --cwd CURRENT_WORK_DIR                Current working directory (e.g., /data/xxp/backdoor/ENCP/Prompt_attack/Rich-resource)
-
+```
 
 ## Usage
 简单描述如何使用该项目。
@@ -64,6 +64,6 @@ optional arguments:
     publisher = "Association for Computational Linguistics",
     doi = "10.18653/v1/2024.emnlp-main.834",
 }
-
+```
 
 
