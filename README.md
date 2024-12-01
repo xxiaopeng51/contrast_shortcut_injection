@@ -26,16 +26,22 @@ To run this project, ensure your environment meets the following requirements:
 
 ## Citation
   ```bash
-echo "@inproceedings{xie-etal-2024-shortcuts,
-  title = \"Shortcuts Arising from Contrast: Towards Effective and Lightweight Clean-Label Attacks in Prompt-Based Learning\",
-  author = \"Xie, Xiaopeng and Yan, Ming and Zhou, Xiwen and Zhao, Chenlong and Wang, Suli and Zhang, Yong and Zhou, Joey Tianyi\",
-  booktitle = \"Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing\",
-  month = nov,
-  year = \"2024\",
-  address = \"Miami, Florida, USA\",
-  publisher = \"Association for Computational Linguistics\",
-  doi = \"10.18653/v1/2024.emnlp-main.834\"
-}" > citation.bib
-EOF
+@inproceedings{xie-etal-2024-shortcuts,
+    title = "Shortcuts Arising from Contrast: Towards Effective and Lightweight Clean-Label Attacks in Prompt-Based Learning",
+    author = "Xie, Xiaopeng  and
+      Yan, Ming  and
+      Zhou, Xiwen  and
+      Zhao, Chenlong  and
+      Wang, Suli  and
+      Zhang, Yong  and
+      Zhou, Joey Tianyi",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    doi = "10.18653/v1/2024.emnlp-main.834",
+}
+
 
 
