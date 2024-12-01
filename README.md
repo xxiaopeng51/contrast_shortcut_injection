@@ -24,7 +24,7 @@ To run this project, ensure your environment meets the following requirements:
 ## Usage
 简单描述如何使用该项目。
 
-## How to Cite
+## Citation
 @inproceedings{xie-etal-2024-shortcuts,
     title = "Shortcuts Arising from Contrast: Towards Effective and Lightweight Clean-Label Attacks in Prompt-Based Learning",
     author = "Xie, Xiaopeng  and
