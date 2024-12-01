@@ -15,8 +15,8 @@ Prompt-based learning paradigm has been shown to be vulnerable to backdoor attac
 To run this project, ensure your environment meets the following requirements:
 
 - Python == 3.7
-- Install dependencies: pip install -r requirements.txt
-  ```bash
+- Install dependencies: 
+  ```bash pip install -r requirements.txt ```
 
 ## Installation
   ```bash
