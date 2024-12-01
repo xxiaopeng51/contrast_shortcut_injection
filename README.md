@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ce097f06-b7b9-4e46-afd6-468acf4fc555)# Contrast_Shortcut_Injection
+# Contrast_Shortcut_Injection
 
 This repository contains code for our EMNLP 2024 paper "[Shortcuts Arising from Contrast: Towards Effective and Lightweight Clean-Label Attacks in Prompt-Based Learning](https://aclanthology.org/2024.emnlp-main.834/)".
 Here is a [Poster](./EMNLP2024-poster.pdf) for a quick start.
