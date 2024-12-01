@@ -16,7 +16,8 @@ To run this project, ensure your environment meets the following requirements:
 
 - Python == 3.7
 - Install dependencies: 
-  ```bash pip install -r requirements.txt ```
+  ```bash
+  pip install -r requirements.txt ```
 
 ## Installation
   ```bash
