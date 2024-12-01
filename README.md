@@ -25,9 +25,7 @@ To run this project, ensure your environment meets the following requirements:
 简单描述如何使用该项目。
 
 ## Citation
-\usepackage{biblatex}
-\renewcommand*{\bibfont}{\small} % 缩小字体便于显示
-@inproceedings{xie-etal-2024-shortcuts,
+echo "@inproceedings{xie-etal-2024-shortcuts,
     title = "Shortcuts Arising from Contrast: Towards Effective and Lightweight Clean-Label Attacks in Prompt-Based Learning",
     author = "Xie, Xiaopeng  and
       Yan, Ming  and
@@ -42,6 +40,6 @@ To run this project, ensure your environment meets the following requirements:
     address = "Miami, Florida, USA",
     publisher = "Association for Computational Linguistics",
     doi = "10.18653/v1/2024.emnlp-main.834",
-}
+}"
 
 
