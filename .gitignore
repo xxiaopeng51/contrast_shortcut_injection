@@ -160,3 +160,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+data/yelp/45000_train_left_truncate.tsv
+fine_tuned_model/sst-2.pth
+data/fine_tuned_model/pytorch_model.bin
